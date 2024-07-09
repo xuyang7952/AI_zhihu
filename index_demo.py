@@ -13,7 +13,7 @@ response = client.chat.completions.create(
     messages=[
         {
             "role": "user",
-            "content": "讲个笑话",
+            "content": "讲个中文冷笑话",
         }
     ],
     model="gpt-3.5-turbo",
